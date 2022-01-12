@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+  <Protection InputFileName="dlldir" Options="989128" OutputFileName="dlloutdir" VMCodeSectionName="sectionName">
+    <Messages />
+    <Folders />
+    <Procedures>
+            <Procedure MapAddress='string &quot;System.Runtime.ExceptionServices.ExceptionDispatchInfo&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;Capture&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;Throw&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;InternalPreserveStackTrace&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;_remoteStackTraceString&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;StackTrace&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;Format&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;System.Data.Common.dll&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;System.Security.Cryptography.ProtectedData.dll&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;GetMethodDescriptor&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;E2960449-24B8-42C3-B713-F419A5B8CE3D&quot;' Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;C8AEF06D-C8FA-4349-BA5B-429B6E18CD43&quot;' Options="0" CompilationType="2" />
+    </Procedures>
+    <Objects>
+      <Object Type="Segment" Name=".text" ExcludedFromMemoryProtection="1" />
+      <Object Type="Segment" Name=".rsrc" ExcludedFromPacking="1" ExcludedFromMemoryProtection="1" />
+      <Object Type="Segment" Name=".reloc" ExcludedFromPacking="1" ExcludedFromMemoryProtection="1" />
+	    <Object Type="Resource" Name="28000001" ExcludedFromPacking="1" />
+      <Object Type="Resource" Name="28000002" ExcludedFromPacking="1" />
+      <Object Type="Resource" Name="28000003" ExcludedFromPacking="1" />
+      <Object Type="Resource" Name="28000004" ExcludedFromPacking="1" />
+    </Objects>
+  </Protection>
+  <DLLBox>
+    <Folders />
+  </DLLBox>
+  <Script>
+    <![CDATA[function makeString(length)
+        if length < 1 then return "" end
+        local s = ""
+        for i = 1, length do
+        	local ran = math.random(32, 126)
+        	while ran == 34 or ran == 39 or ran == 92 or ran == 96  do
+        		ran = math.random(32, 126)
+        	end
+            s = s .. string.char(ran) 
+        end
+        return s 
+end
+
+
+function OnAfterSaveFile()
+	local file = vmprotect.core():outputArchitecture()
+	for i = 1, file:segments():count() do
+		segment = file:segments():item(i)
+		local str = makeString(15)
+		name = str -- str yazan yere section ismini yazabilirsin
+		print(string.format("Section \"%s\" is renamed to \"%s\"", segment:name(), name))
+		segment:setName(name)
+	end
+end]]>
+  </Script>
+  <LicenseManager />
+</Document>

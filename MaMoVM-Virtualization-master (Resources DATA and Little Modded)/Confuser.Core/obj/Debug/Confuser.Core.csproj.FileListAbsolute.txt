@@ -1,0 +1,21 @@
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Debug\bin\Confuser.Core.dll
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Debug\bin\Confuser.Core.pdb
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Confuser.Core\obj\Debug\Confuser.Core.csprojAssemblyReference.cache
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Confuser.Core\obj\Debug\Confuser.Core.csproj.CoreCompileInputs.cache
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Confuser.Core\obj\Debug\Confuser.Core.csproj.CopyComplete
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Confuser.Core\obj\Debug\Confuser.Core.dll
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master\Confuser.Core\obj\Debug\Confuser.Core.pdb
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\Confuser.Core.dll
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\Confuser.Core.pdb
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csprojAssemblyReference.cache
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csproj.CoreCompileInputs.cache
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csproj.CopyComplete
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.dll
+C:\Users\MaMo434376\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.pdb
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\Confuser.Core.dll
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\Confuser.Core.pdb
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csprojAssemblyReference.cache
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csproj.CoreCompileInputs.cache
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.csproj.CopyComplete
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.dll
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Confuser.Core\obj\Debug\Confuser.Core.pdb

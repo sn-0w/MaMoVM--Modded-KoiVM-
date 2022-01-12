@@ -1,0 +1,7 @@
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\MaMoVM.Runtime\obj\Debug\MaMoVM.Runtime.csprojAssemblyReference.cache
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\MaMoVM.Runtime\obj\Debug\MaMoVM.Runtime.csproj.CoreCompileInputs.cache
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\MaMoVM.Runtime\obj\Debug\MaMoVM.Runtime.csproj.CopyComplete
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\WINDOWS.UI.IMMERSIVE.dll
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\Debug\bin\WINDOWS.UI.IMMERSIVE.pdb
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\MaMoVM.Runtime\obj\Debug\WINDOWS.UI.IMMERSIVE.dll
+C:\Users\4355678931\Desktop\KoiVM-Virtualization-master (Resources DATA and Little Modded)\MaMoVM.Runtime\obj\Debug\WINDOWS.UI.IMMERSIVE.pdb
